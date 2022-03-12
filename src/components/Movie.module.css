@@ -1,0 +1,57 @@
+.movie {
+  margin-inline: 15%;
+  margin-block: 25px;
+  padding-bottom: 5px;
+  /* background-color: #5cdb95; */
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: #05386b;
+  width: 70%;
+}
+
+.movie div {
+  padding-block: 0.5rem;
+  background-color: rgba(224, 130, 131, 0.5);
+  padding-inline: 1rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+body {
+  align-items: center;
+}
+
+.movie h2 {
+  font-size: 2rem;
+  color: #fc4445;
+}
+
+.movie h3 {
+  color: #705f2a;
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 350px) {
+  .movie {
+    width: 98%;
+    margin-inline: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .movie {
+    width: 98%;
+    margin-inline: 10px;
+  }
+}
+
+@media screen and (min-width: 551px) {
+  .movie {
+    width: 80%;
+    margin-inline: 10%;
+    margin-block: 25px;
+  }
+}

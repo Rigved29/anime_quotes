@@ -1,0 +1,61 @@
+img {
+  margin-left: 38%;
+  width: 25%;
+  height: 400px;
+}
+
+@media screen and (max-width: 950px) {
+  img {
+    margin-left: 38%;
+    width: 60%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    margin-left: 30%;
+    width: 45%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    margin-left: 23%;
+    width: 55%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  img {
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+  }
+
+  .sec {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  img {
+    margin-left: 10%;
+    width: 80%;
+    height: 280px;
+  }
+}
+
+.n {
+  color: white;
+  position: center;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
